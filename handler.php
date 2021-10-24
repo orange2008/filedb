@@ -21,7 +21,7 @@ $productkey = $_POST['productkey'];
 $remarks = $_POST['remarks'];
 // Insert a new line to table 'legitsoftware'
 $sql = "INSERT INTO `legitsoftware` (`NAME`, `Website`, `Country`, `TYPE`, `Payment`, `Cost`, `Currency`, `ValidDate`, `FirstName`, `LastName`, `Email`, `Productkey`, `Remarks) 
-        VALUES (`$name`,`$website`,`$country`,`$type`,`$payment`,`$cost`,`$currency`,`$validdate`,`$firstname`,`$lastname`,`$email`,`$productkey`,`$remarks`)";
+        VALUES ('$name','$website','$country','$type','$payment','$cost','$currency','$validdate','$firstname','$lastname','$email','$productkey','$remarks')";
 echo "Your SQL Query is ".$sql;
 $mysqli->query($sql);
 echo "<br /><br />Query OK.";
