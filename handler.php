@@ -25,7 +25,7 @@ $sql = "INSERT INTO `legitsoftware` (`NAME`, `Website`, `Country`, `TYPE`, `Paym
 echo "Your SQL Query is ".$sql;
 $mysqli->query($sql);
 echo "Query OK.";
-echo "<meta http-equiv='Refresh' content='1;url=/'>";
+// echo "<meta http-equiv='Refresh' content='1;url=/'>";
 // Close MySQL connection
 $mysqli->close();
 ?>
