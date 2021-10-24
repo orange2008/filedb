@@ -6,7 +6,7 @@
 </head>
 <body>
 <h1>Add a new record</h1>
-<form action="add.php" method="post">
+<form action="handler.php" method="post">
 <p>Name: <input type="text" name="name"  /></p>
 <p>Website: <input type="text" name="website"  /></p>
 <p>Country: <input type="text" name="country" maxlength=2 /></p>
